@@ -1,0 +1,19 @@
+/* @import "normalize.css/normalize.css"; */
+
+:root {
+  --color-main: #0088ffb7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: var(--color-main);
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}

@@ -1,0 +1,24 @@
+.item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    padding-bottom: 12px;
+    min-width: 300px;
+    width: 100%;
+}
+
+.task {
+    max-width: 800px;
+    width: 100%;
+    padding-right: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 1.5;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #808080bd;
+}

@@ -1,0 +1,18 @@
+.button {
+  background-color: #fff;
+  border-color: var(--color-main);
+  border-radius: 8px;
+  padding: 4px;
+  transition: background-color 400ms ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-main);
+  color: #fff;
+}
+
+.button-primary {
+  border-radius: 50%;
+  background: #5097c3;
+  box-shadow: inset 26px 26px 51px #4480a6, inset -26px -26px 51px #5caee0;
+}
